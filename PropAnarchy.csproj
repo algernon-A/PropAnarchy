@@ -17,7 +17,9 @@
 		<PackageReference Include="CitiesHarmony.API" Version="2.1.0" />
 		<Reference Include="Assembly-CSharp" />
 		<Reference Include="ColossalManaged" />
-		<Reference Include="EManagersLib" />
+		<Reference Include="EManagersLib">
+		  <HintPath>..\..\..\source\repos\EManagersLib\bin\Release\EManagersLib.dll</HintPath>
+		</Reference>
 		<Reference Include="ICities" />
 		<Reference Include="MoveIt" />
 		<Reference Include="UIIndicator" />
