@@ -160,7 +160,7 @@ namespace PropAnarchy.PLT {
                                 EPropInstance.RenderInstance(cameraInfo, propInfo, id, m_position, m_scale, m_angle, m_color, RenderManager.DefaultColorLocation, true);
                             }
                         } else if (m_finalPrefab is TreeInfo treeInfo) {
-                            TreeInstance.RenderInstance(cameraInfo, treeInfo, m_position, m_scale, m_brightness, RenderManager.DefaultColorLocation);
+                            TreeInstance.RenderInstance(cameraInfo, treeInfo, m_position, m_scale, m_brightness, RenderManager.DefaultColorLocation, false);
                         }
                     }
                 }
